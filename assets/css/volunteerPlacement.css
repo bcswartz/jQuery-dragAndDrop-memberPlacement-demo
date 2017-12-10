@@ -82,17 +82,17 @@ h4.groupHeader {
 	border:1px solid #ccc;
 	float:left;
 	font-weight:bold;
-	height:15px;
+	height:30px;
 	margin:-1px 4px 0px 0px;
 	padding:2px 2px 5px 2px;
 	text-align:center;
-	width:15px;
+	width:30px;
 }
 
 .groupConsole {
 	border:1px dotted #ccc;
 	font-family: Arial;
-	font-size:95%;
+	font-size:80%;
 	margin:0px 5px 10px 15px;
 	padding:2px;
 }
@@ -129,14 +129,14 @@ h4.groupHeader {
 	border:2px ridge #3333ff;
 	margin-bottom:3px;
 	width:450px;
-	font-size:90%;
+	font-size:80%;
 }
 
 .member {
 	border:2px ridge #cc0033;
 	margin-bottom:3px;
 	width:450px;
-	font-size:90%;
+	font-size:80%;
 }
 
 .outgoingMember {
@@ -171,11 +171,11 @@ h4.groupHeader {
 	cursor:help;
 	float:left;
 	font-weight:bold;
-	height:13px;
+	height:25px;
 	margin:1px 0px 0px 4px;
 	padding:1px 2px 5px 2px;
 	text-align:center;
-	width:15px;
+	width:18px;
 }
 
 .member > .profile {

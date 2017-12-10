@@ -29,6 +29,7 @@ layout: default
     <input type="radio" name="viewingOption" id="viewingOptionAll" value="all" checked="checked"> View all volunteers &nbsp;
     <input type="radio" name="viewingOption" id="viewingOptionMatched" value="matched"> View volunteers interested in open committees
 </form>
+<br />
 
 <div id="volunteerCol">
     <div id="candidateBlock" class="candidateContainer">
@@ -37,7 +38,7 @@ layout: default
             {% for vol in site.data.volunteers %}
             <li class="volunteer {{ vol.gender }}" title="{{ forloop.index }}">
                 <div class="profile">
-                    {{ vol.name }} (Gender: {{ vol.gender }}, Age: {{ vol.age }}, Years Exp: {{ vol.yearsExp }}) A
+                    {{ vol.name }} (Gender: {{ vol.gender }}, Age: {{ vol.age }}, Years Exp: {{ vol.yearsExp }})
                 </div>
                 <div class="groupPreferences">
                     {% for pref in vol.prefs %}
