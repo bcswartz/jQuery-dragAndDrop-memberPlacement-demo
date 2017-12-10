@@ -1,0 +1,26 @@
+-
+  id: 1
+  name: Finance Committee
+  maleVacancies: 1
+  femaleVacancies: 1
+-
+  id: 2
+  name: Hiring Committee
+  maleVacancies: 2
+  femaleVacancies: 1
+-
+  id: 3
+  name: Training Committee
+  maleVacancies: 2
+  femaleVacancies: 2
+-
+  id: 4
+  name: Conference Committee
+  maleVacancies: 1
+  femaleVacancies: 0
+-
+  id: 5
+  name: Planning Committee
+  maleVacancies: 0
+  femaleVacancies: 1
+

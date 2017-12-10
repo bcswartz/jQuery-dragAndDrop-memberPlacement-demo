@@ -1,0 +1,211 @@
+/* CSS styles for the committee placement tool */
+
+.hideElement {display:none;}
+
+#instructions {
+	background-color:#CCFFCC;
+	border:1px solid black;
+	margin:10px;
+	padding:5px;
+}
+
+#blockLeft {
+	float:left;
+}
+
+#instructionP {
+	font-weight:bold;
+	margin-left:10px;
+}
+
+form {background-color:#FFFFCC;}
+
+#volunteerCol {
+	float:left;
+	width:490px;
+}
+
+#groupsCol {
+	float:right;
+	list-style-type:none;
+	margin:0px 20px 0px 0px;
+	padding:0px;
+	width:470px;
+}
+
+.candidateContainer {
+	border:1px dotted #000;
+	margin-bottom:10px;
+	margin-left:3px;
+	padding:3px;
+	width:470px;
+}
+
+h3 {
+	 font-family: Arial;
+	 font-size:110%;
+	 margin: 2px 0px 5px 2px;
+}
+
+
+h4.groupHeader {
+	font-family: Arial;
+	font-size:100%;
+	margin: 2px 0px 9px 10px;
+}
+
+
+.groupBlock {
+	margin-bottom:10px;
+	padding:2px;
+}
+
+.groupOpen {
+	border:1px solid #ccc;
+}
+
+.groupFilled {
+	border:2px solid green;
+}
+
+.groupProblem {
+	border:2px solid red;
+}
+
+.toggleGroupInfo {
+	cursor:pointer;
+	float:left;
+	margin:3px 5px 0px 2px;
+}
+
+.idBlock {
+	border:1px solid #ccc;
+	float:left;
+	font-weight:bold;
+	height:15px;
+	margin:-1px 4px 0px 0px;
+	padding:2px 2px 5px 2px;
+	text-align:center;
+	width:15px;
+}
+
+.groupConsole {
+	border:1px dotted #ccc;
+	font-family: Arial;
+	font-size:95%;
+	margin:0px 5px 10px 15px;
+	padding:2px;
+}
+
+.vacancyTotal {
+	float:left;
+	font-weight:bold;
+	width:75px;
+}
+
+.vacancyListBlock {
+	float:left;
+	margin-left:5px;
+}
+
+.vacancyList {
+  	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.groupViewControls {
+	float:right;
+}
+
+.volList, .memberList {
+	list-style-type:none;
+	margin:0px;
+	min-height:50px;
+	padding:0px;
+}
+
+.volunteer {
+	border:2px ridge #3333ff;
+	margin-bottom:3px;
+	width:450px;
+	font-size:90%;
+}
+
+.member {
+	border:2px ridge #cc0033;
+	margin-bottom:3px;
+	width:450px;
+	font-size:90%;
+}
+
+.outgoingMember {
+	background-color:#EEFFFF;
+}
+
+
+.toggleVolunteer {
+	cursor:pointer;
+	margin:3px 2px 0px 0px;
+}
+
+.volunteer > .profile {
+	cursor:move;
+	float:left;
+	font-family:Arial;
+	font-size:90%;
+ 	padding:0px 3px 8px 2px;
+	vertical-align:middle;
+	width:330px;
+}
+
+.volunteer > .groupPreferences {
+	float:left;
+	padding:0ex .4em;
+	text-align:center;
+	width:75px;
+}
+
+.volunteer > .prefBlock {
+	border:1px solid #ccc;
+	cursor:help;
+	float:left;
+	font-weight:bold;
+	height:13px;
+	margin:1px 0px 0px 4px;
+	padding:1px 2px 5px 2px;
+	text-align:center;
+	width:15px;
+}
+
+.member > .profile {
+	cursor:move;
+	float:left;
+	font-family:Arial;
+	font-size:90%;
+ 	padding:0px 3px 8px 2px;
+	vertical-align:middle;
+	width:330px;
+}
+
+.prefBlock {
+	height:13px;
+	width:15px;
+	float:left;
+	margin-top:1px;margin-right:4px;
+	padding:1px 2px 5px 2px;
+	border:1px solid #ccc;
+	font-weight:bold;
+	text-align:center;
+	cursor:help;
+}
+
+
+
+.blockClear {
+	 position:relative;
+	 clear:both;
+	 width:100%;
+	 margin-top:1px;
+}
+

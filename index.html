@@ -1,0 +1,97 @@
+---
+layout: default
+---
+<link type="text/css" rel="stylesheet" href="assets/css/volunteerPlacement.css" />
+<script type="text/javascript" src="assets/javascript/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/javascript/jquery.blockUI.js"></script>
+<script type="text/javascript" src="assets/javascript/jqueryUI/js/jquery-ui-1.5.3.custom.min.js"></script>
+<script type="text/javascript" src="assets/javascript/volunteerPlacement.js"></script>
+
+
+<div id="instructions">
+    <h4>Place Volunteer Candidates Into Committees</h4>
+
+    <p>The object is to fill the vacancies in each committee listed on the right with volunteers who fit the vacancy need and have similar attributes to the committee members who are departing from the committee (shaded in blue).</p>
+
+    <p>All of the volunteers were asked to express their 1st, 2nd, and 3rd choice for the committee they would prefer to serve on (though some only expressed an interest for one or two committeee).  Those preferences are listed in numeric boxes to the right of their personal information (name, gender, age, and years with the organization), with the 1st box being their first choice and so on.  The numbers in the boxes correspond to the committees on the right, but you can also hover over each box to see the name of the committee.</p>
+
+    <p>Use the red arrow to the left of each committee's number and name to "open" the committee and reveal the vacancies in the group.  You can toggle whether or not the current committee members are displayed.  To help narrow down the list of volunteers who want to serve on the committee, use the "View volunteers interested in open committees" to hide the volunteers who have no interest in the committee.  You can also click and drag the volunteers to rearrange them as you wish (perhaps listing the volunteers for whom the open group is their first preference at the top).</p>
+
+    <p>Once you've decided on the volunteers best suited to replace the outgoing members, click and drag each volunteer into the committee.  The corresponding vacancy number will be updated.  When you've filled all the vacancies, the border of the committee box will turn green.</p>
+
+    <p>Have fun!</p>
+
+</div>
+
+<p id="instructionP"><a id="instructionToggle" href="">Hide instructions</a></p>
+
+<form name="viewOption" id="viewOption" method="post" action="">
+    <input type="radio" name="viewingOption" id="viewingOptionAll" value="all" checked="checked"> View all volunteers &nbsp;
+    <input type="radio" name="viewingOption" id="viewingOptionMatched" value="matched"> View volunteers interested in open committees
+</form>
+
+<div id="volunteerCol">
+    <div id="candidateBlock" class="candidateContainer">
+        <h3>Volunteer Candidates</h3>
+        <ul id="volCandidates" class="volList">
+            {% for vol in site.data.volunteers %}
+            <li class="volunteer {{ vol.gender }}" title="{{ forloop.index }}">
+                <div class="profile">
+                    {{ vol.name }} (Gender: {{ vol.gender }}, Age: {{ vol.age }}, Years Exp: {{ vol.yearsExp }}) A
+                </div>
+                <div class="groupPreferences">
+                    {% for pref in vol.prefs %}
+                        {% assign prefGroup = site.data.groups | where:"id",pref %} <!-- Always returns array -->
+                        <div class="prefBlock {{ pref }}" title="{{ prefGroup[0].name }}" alt="{{ pref }}">{{ pref }}</div>
+                    {% endfor %}
+                </div>
+                <div class="blockClear"></div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+
+<ul id="groupsCol">
+    {% for group in site.data.groups %}
+        <li class="groupBlock groupOpen" title="{{ group.id }}">
+            <img src="assets/images/right.gif" class="toggleGroupInfo" />
+            <div class="idBlock">{{ group.id }}</div>
+            <h4 class="groupHeader">{{ group.name }}</h4>
+            <div class="groupInfo hideElement">
+
+                <div class="groupConsole {{ group.id }}">
+                    <div class="vacancyTotal">
+                        Vacancies:
+                    </div>
+                    <div class="vacancyListBlock">
+                        <ul class="vacancyList">
+                            <li class='vacancyItem' title='Male'> <span>{{ group.maleVacancies }}</span> Men </li>
+                            <li class='vacancyItem' title='Female'> <span>{{ group.femaleVacancies }}</span> Women </li>
+                        </ul>
+                    </div>
+                    <div class="groupViewControls">
+                        <a class="toggleMemberView" href=".{{ group.id }}">Show current committee members</a>
+                    </div>
+                    <div class="blockClear"></div>
+                </div>
+
+                <ul id="{{ group.id }}" class="memberList {{ group.id }}">
+                    {% assign groupMembers = site.data.members | where:"group",group.id %}
+                    {% for member in groupMembers %}
+                        <li class="member hideElement {% if member.isOutgoing == 'Y' %}outgoingMember{% endif %}">
+                            <div class="profile">
+                                {{ member.name }} (Gender: {{ member.gender }}, Age: {{ member.age }}, Years Exp: {{ member.yearsExp }})
+                            </div>
+                            <div class="blockClear"></div>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+        </li>
+    {% endfor %}
+</ul>
+
+<div class="blockClear"></div>

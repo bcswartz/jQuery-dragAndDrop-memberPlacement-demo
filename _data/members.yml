@@ -1,0 +1,240 @@
+-
+  id: 1
+  name: Basil Rotham
+  gender: Male
+  age: 23
+  yearsExp: 5
+  group: 1
+  isOutgoing: N
+-
+  id: 2
+  name: Duncan Kern
+  gender: Male
+  age: 43
+  yearsExp: 12
+  group: 1
+  isOutgoing: N
+-
+  id: 3
+  name: Carly Cosin
+  gender: Female
+  age: 56
+  yearsExp: 16
+  group: 1
+  isOutgoing: Y
+-
+  id: 4
+  name: Katie Ellsman
+  gender: Female
+  age: 32
+  yearsExp: 6
+  group: 1
+  isOutgoing: N
+-
+  id: 5
+  name: Yoni Hun
+  gender: Male
+  age: 61
+  yearsExp: 13
+  group: 1
+  isOutgoing: N
+-
+  id: 6
+  name: Terry Galt
+  gender: Male
+  age: 27
+  yearsExp: 17
+  group: 1
+  isOutgoing: Y
+-
+  id: 7
+  name: Fred Olmanstein
+  gender: Male
+  age: 37
+  yearsExp: 12
+  group: 2
+  isOutgoing: Y
+-
+  id: 8
+  name: Holly Ester
+  gender: Female
+  age: 23
+  yearsExp: 3
+  group: 2
+  isOutgoing: N
+-
+  id: 9
+  name: Paul Jolin
+  gender: Male
+  age: 33
+  yearsExp: 12
+  group: 2
+  isOutgoing: Y
+-
+  id: 10
+  name: Justin Farrier
+  gender: Male
+  age: 31
+  yearsExp: 7
+  group: 2
+  isOutgoing: N
+-
+  id: 11
+  name: Ellen Quinn
+  gender: Female
+  age: 52
+  yearsExp: 21
+  group: 2
+  isOutgoing: Y
+-
+  id: 12
+  name: Ari Ghelm
+  gender: Male
+  age: 46
+  yearsExp: 11
+  group: 2
+  isOutgoing: N
+-
+  id: 13
+  name: Doug Wallace
+  gender: Male
+  age: 29
+  yearsExp: 4
+  group: 3
+  isOutgoing: Y
+-
+  id: 14
+  name: Genie Masters
+  gender: Female
+  age: 55
+  yearsExp: 30
+  group: 3
+  isOutgoing: Y
+-
+  id: 15
+  name: Tom Rellavie
+  gender: Male
+  age: 62
+  yearsExp: 33
+  group: 3
+  isOutgoing: Y
+-
+  id: 16
+  name: Sue Morgenstern
+  gender: Female
+  age: 65
+  yearsExp: 15
+  group: 3
+  isOutgoing: Y
+-
+  id: 17
+  name: Vance Tumun
+  gender: Male
+  age: 48
+  yearsExp: 16
+  group: 4
+  isOutgoing: N
+-
+  id: 18
+  name: Dirk Pittman
+  gender: Male
+  age: 26
+  yearsExp: 4
+  group: 4
+  isOutgoing: Y
+-
+  id: 19
+  name: Bonnie Postman
+  gender: Female
+  age: 41
+  yearsExp: 7
+  group: 4
+  isOutgoing: N
+-
+  id: 20
+  name: Mary Ann Geller
+  gender: Female
+  age: 54
+  yearsExp: 12
+  group: 4
+  isOutgoing: N
+-
+  id: 21
+  name: Jack Bowman
+  gender: Male
+  age: 38
+  yearsExp: 9
+  group: 4
+  isOutgoing: N
+-
+  id: 22
+  name: Debbie Eastman
+  gender: Female
+  age: 31
+  yearsExp: 6
+  group: 4
+  isOutgoing: N
+-
+  id: 23
+  name: Molly Wooden
+  gender: Female
+  age: 70
+  yearsExp: 35
+  group: 4
+  isOutgoing: N
+-
+  id: 24
+  name: Maize Blackman
+  gender: Male
+  age: 55
+  yearsExp: 12
+  group: 4
+  isOutgoing: N
+-
+  id: 25
+  name: Zoey Sommers
+  gender: Female
+  age: 31
+  yearsExp: 9
+  group: 5
+  isOutgoing: N
+-
+  id: 26
+  name: Jane Callendar
+  gender: Female
+  age: 49
+  yearsExp: 12
+  group: 5
+  isOutgoing: N
+-
+  id: 27
+  name: Lacey Banderman
+  gender: Female
+  age: 25
+  yearsExp: 2
+  group: 5
+  isOutgoing: Y
+-
+  id: 28
+  name: Connie Kelly
+  gender: Female
+  age: 28
+  yearsExp: 1
+  group: 5
+  isOutgoing: N
+-
+  id: 29
+  name: Burt Sparks
+  gender: Male
+  age: 33
+  yearsExp: 3
+  group: 5
+  isOutgoing: N
+-
+  id: 30
+  name: Craig Wynn
+  gender: Male
+  age: 67
+  yearsExp: 14
+  group: 5
+  isOutgoing: N

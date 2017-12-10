@@ -1,0 +1,191 @@
+-
+  id: 1
+  name: Sally Quinn
+  gender: Female
+  age: 28
+  yearsExp: 3
+  prefs:
+    - 1
+    - 3
+    - 5
+-
+  id: 2
+  name: Ronnie Davis
+  gender: Female
+  age: 45
+  yearsExp: 12
+  prefs:
+    - 2
+    - 4
+    - 1
+-
+  id: 3
+  name: Bob Green
+  gender: Male
+  age: 57
+  yearsExp: 14
+  prefs:
+    - 3
+    - 2
+-
+  id: 4
+  name: Jason Funder
+  gender: Male
+  age: 23
+  yearsExp: 3
+  prefs:
+    - 1
+    - 2
+    - 3
+-
+  id: 5
+  name: Kyle Singler
+  gender: Male
+  age: 54
+  yearsExp: 5
+  prefs:
+    - 3
+    - 4
+    - 1
+-
+  id: 6
+  name: Sarah Dorsey
+  gender: Female
+  age: 63
+  yearsExp: 3
+  prefs:
+    - 2
+    - 5
+    - 1
+-
+  id: 7
+  name: Amelia Grant
+  gender: Female
+  age: 38
+  yearsExp: 17
+  prefs:
+    - 3
+    - 2
+    - 1
+-
+  id: 8
+  name: Montana Jersey
+  gender: Male
+  age: 40
+  yearsExp: 8
+  prefs:
+    - 4
+    - 2
+-
+  id: 9
+  name: Felicity Jane
+  gender: Female
+  age: 43
+  yearsExp: 10
+  prefs:
+    - 5
+-
+  id: 10
+  name: Lynn Daniel
+  gender: Male
+  age: 44
+  yearsExp: 3
+  prefs:
+    - 3
+    - 4
+    - 2
+-
+  id: 11
+  name: Mort Gessing
+  gender: Male
+  age: 27
+  yearsExp: 5
+  prefs:
+    - 2
+    - 3
+-
+  id: 12
+  name: Lynne Pastern
+  gender: Female
+  age: 31
+  yearsExp: 2
+  prefs:
+    - 1
+    - 5
+    - 3
+-
+  id: 13
+  name: Eli Fortaine
+  gender: Male
+  age: 32
+  yearsExp: 10
+  prefs:
+    - 5
+    - 2
+-
+  id: 14
+  name: Kara Thrace
+  gender: Female
+  age: 67
+  yearsExp: 4
+  prefs:
+    - 3
+    - 4
+-
+  id: 15
+  name: Jimmy Kaplen
+  gender: Male
+  age: 48
+  yearsExp: 1
+  prefs:
+    - 2
+    - 1
+    - 3
+-
+  id: 16
+  name: Ferris Huffy
+  gender: Male
+  age: 22
+  yearsExp: 4
+  prefs:
+    - 2
+    - 3
+    - 4
+-
+  id: 17
+  name: Joanne Streller
+  gender: Male
+  age: 35
+  yearsExp: 9
+  prefs:
+    - 3
+    - 4
+    - 5
+-
+  id: 18
+  name: Mike Mason
+  gender: Female
+  age: 54
+  yearsExp: 2
+  prefs:
+    - 5
+    - 2
+    - 1
+-
+  id: 19
+  name: Carl Kastle
+  gender: Male
+  age: 33
+  yearsExp: 6
+  prefs:
+    - 1
+    - 4
+    - 5
+-
+  id: 20
+  name: Darth Vessler
+  gender: Male
+  age: 28
+  yearsExp: 10
+  prefs:
+    - 4
