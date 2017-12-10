@@ -153,7 +153,7 @@ h4.groupHeader {
 	cursor:move;
 	float:left;
 	font-family:Arial;
-	font-size:90%;
+	font-size:80%;
  	padding:0px 3px 8px 2px;
 	vertical-align:middle;
 	width:330px;
@@ -163,7 +163,7 @@ h4.groupHeader {
 	float:left;
 	padding:0ex .4em;
 	text-align:center;
-	width:75px;
+	width:80px;
 }
 
 .volunteer > .prefBlock {
@@ -182,17 +182,18 @@ h4.groupHeader {
 	cursor:move;
 	float:left;
 	font-family:Arial;
-	font-size:90%;
+	font-size:80%;
  	padding:0px 3px 8px 2px;
 	vertical-align:middle;
 	width:330px;
 }
 
 .prefBlock {
-	height:13px;
-	width:15px;
+	height:25px;
+	width:18px;
 	float:left;
-	margin-top:1px;margin-right:4px;
+	margin-top:1px !important;
+	margin-right:4px;
 	padding:1px 2px 5px 2px;
 	border:1px solid #ccc;
 	font-weight:bold;
